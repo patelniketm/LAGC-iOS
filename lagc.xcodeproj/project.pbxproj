@@ -19,16 +19,14 @@
 		CC3926661F9029630016820C /* lagcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3926651F9029630016820C /* lagcTests.swift */; };
 		CC3926711F9029630016820C /* lagcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3926701F9029630016820C /* lagcUITests.swift */; };
 		CCB2E237200D294B0012B827 /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E236200D294B0012B827 /* SubscribeViewController.swift */; };
-		CCB2E23F200D3DF60012B827 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E23E200D3DF60012B827 /* DownloadManager.swift */; };
 		CCB2E245200D3E4D0012B827 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E240200D3E4D0012B827 /* MenuController.swift */; };
-		CCB2E246200D3E4D0012B827 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E241200D3E4D0012B827 /* NewsTableViewController.swift */; };
-		CCB2E247200D3E4D0012B827 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E242200D3E4D0012B827 /* NewsTableViewCell.swift */; };
 		CCB2E249200D3E4D0012B827 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E244200D3E4D0012B827 /* PhotoViewController.swift */; };
 		CCB2E24F200D3EBD0012B827 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E24E200D3EBD0012B827 /* SWRevealViewController.m */; };
 		CCB2E251200D4BB60012B827 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E250200D4BB60012B827 /* PaymentViewController.swift */; };
 		CCB2E253200D514A0012B827 /* FlyersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E252200D514A0012B827 /* FlyersViewController.swift */; };
 		CCB2E255200D7DD50012B827 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E254200D7DD50012B827 /* ContactViewController.swift */; };
 		CCB2E257200D8A500012B827 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB2E256200D8A500012B827 /* MessageUI.framework */; };
+		CCB2E259200D98ED0012B827 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E258200D98ED0012B827 /* EventsViewController.swift */; };
 		CCCC4EDC1F905CF800EC930A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCCC4EDB1F905CF800EC930A /* GoogleService-Info.plist */; };
 		EA010D755BF713D849192501 /* Pods_lagc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3698ABFA29C85A64861A2A /* Pods_lagc.framework */; };
 /* End PBXBuildFile section */
@@ -75,10 +73,7 @@
 		CC3926701F9029630016820C /* lagcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lagcUITests.swift; sourceTree = "<group>"; };
 		CC3926721F9029630016820C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCB2E236200D294B0012B827 /* SubscribeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
-		CCB2E23E200D3DF60012B827 /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
 		CCB2E240200D3E4D0012B827 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
-		CCB2E241200D3E4D0012B827 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
-		CCB2E242200D3E4D0012B827 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		CCB2E244200D3E4D0012B827 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		CCB2E24B200D3EBC0012B827 /* lagc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lagc-Bridging-Header.h"; sourceTree = "<group>"; };
 		CCB2E24D200D3EBD0012B827 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -87,6 +82,7 @@
 		CCB2E252200D514A0012B827 /* FlyersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyersViewController.swift; sourceTree = "<group>"; };
 		CCB2E254200D7DD50012B827 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactViewController.swift; path = ../ContactViewController.swift; sourceTree = "<group>"; };
 		CCB2E256200D8A500012B827 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CCB2E258200D98ED0012B827 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsViewController.swift; path = ../EventsViewController.swift; sourceTree = "<group>"; };
 		CCCC4EDB1F905CF800EC930A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EB3698ABFA29C85A64861A2A /* Pods_lagc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lagc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -169,6 +165,7 @@
 		CC39264F1F9029630016820C /* lagc */ = {
 			isa = PBXGroup;
 			children = (
+				CCB2E258200D98ED0012B827 /* EventsViewController.swift */,
 				CCB2E254200D7DD50012B827 /* ContactViewController.swift */,
 				CCB2E24A200D3EA70012B827 /* SWRevealViewController */,
 				CCB2E236200D294B0012B827 /* SubscribeViewController.swift */,
@@ -181,13 +178,10 @@
 				CC3926571F9029630016820C /* Assets.xcassets */,
 				CC3926591F9029630016820C /* LaunchScreen.storyboard */,
 				CCB2E240200D3E4D0012B827 /* MenuController.swift */,
-				CCB2E241200D3E4D0012B827 /* NewsTableViewController.swift */,
-				CCB2E242200D3E4D0012B827 /* NewsTableViewCell.swift */,
 				CCB2E244200D3E4D0012B827 /* PhotoViewController.swift */,
 				CC39265C1F9029630016820C /* Info.plist */,
 				CC1DB8101F940AB100B0827F /* MainViewController.swift */,
 				CC1DB8121F940C2A00B0827F /* CommitteeViewController.swift */,
-				CCB2E23E200D3DF60012B827 /* DownloadManager.swift */,
 			);
 			path = lagc;
 			sourceTree = "<group>";
@@ -550,16 +544,14 @@
 				CCB2E255200D7DD50012B827 /* ContactViewController.swift in Sources */,
 				CC1DB8111F940AB100B0827F /* MainViewController.swift in Sources */,
 				CCB2E24F200D3EBD0012B827 /* SWRevealViewController.m in Sources */,
-				CCB2E247200D3E4D0012B827 /* NewsTableViewCell.swift in Sources */,
 				CCB2E237200D294B0012B827 /* SubscribeViewController.swift in Sources */,
 				CC3926531F9029630016820C /* AboutViewController.swift in Sources */,
-				CCB2E246200D3E4D0012B827 /* NewsTableViewController.swift in Sources */,
 				CCB2E251200D4BB60012B827 /* PaymentViewController.swift in Sources */,
 				CC1DB8131F940C2A00B0827F /* CommitteeViewController.swift in Sources */,
 				CCB2E253200D514A0012B827 /* FlyersViewController.swift in Sources */,
+				CCB2E259200D98ED0012B827 /* EventsViewController.swift in Sources */,
 				CC3926511F9029630016820C /* AppDelegate.swift in Sources */,
 				CCB2E249200D3E4D0012B827 /* PhotoViewController.swift in Sources */,
-				CCB2E23F200D3DF60012B827 /* DownloadManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
