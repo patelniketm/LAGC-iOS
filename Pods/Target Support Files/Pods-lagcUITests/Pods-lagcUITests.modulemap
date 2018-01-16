@@ -1,0 +1,6 @@
+framework module Pods_lagcUITests {
+  umbrella header "Pods-lagcUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_lagc {
+  umbrella header "Pods-lagc-umbrella.h"
+
+  export *
+  module * { export * }
+}
