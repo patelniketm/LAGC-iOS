@@ -11,7 +11,6 @@
 		36F942789099B711130C0C5E /* Pods_lagcUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C05EE5B72430588FD1740 /* Pods_lagcUITests.framework */; };
 		CC1DB8111F940AB100B0827F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1DB8101F940AB100B0827F /* MainViewController.swift */; };
 		CC1DB8131F940C2A00B0827F /* CommitteeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1DB8121F940C2A00B0827F /* CommitteeViewController.swift */; };
-		CC1DB8171F9413B900B0827F /* CommitteeMembersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1DB8161F9413B900B0827F /* CommitteeMembersTableViewCell.swift */; };
 		CC3926511F9029630016820C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3926501F9029630016820C /* AppDelegate.swift */; };
 		CC3926531F9029630016820C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3926521F9029630016820C /* AboutViewController.swift */; };
 		CC3926561F9029630016820C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3926541F9029630016820C /* Main.storyboard */; };
@@ -19,7 +18,6 @@
 		CC39265B1F9029630016820C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3926591F9029630016820C /* LaunchScreen.storyboard */; };
 		CC3926661F9029630016820C /* lagcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3926651F9029630016820C /* lagcTests.swift */; };
 		CC3926711F9029630016820C /* lagcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3926701F9029630016820C /* lagcUITests.swift */; };
-		CC40075C1FA94FEB00622AEB /* CommitteeMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC40075B1FA94FEB00622AEB /* CommitteeMember.swift */; };
 		CCB2E237200D294B0012B827 /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E236200D294B0012B827 /* SubscribeViewController.swift */; };
 		CCB2E23F200D3DF60012B827 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E23E200D3DF60012B827 /* DownloadManager.swift */; };
 		CCB2E245200D3E4D0012B827 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E240200D3E4D0012B827 /* MenuController.swift */; };
@@ -61,7 +59,6 @@
 		C172BAF2B9104238DD8967F8 /* Pods-lagc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lagc.release.xcconfig"; path = "Pods/Target Support Files/Pods-lagc/Pods-lagc.release.xcconfig"; sourceTree = "<group>"; };
 		CC1DB8101F940AB100B0827F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CC1DB8121F940C2A00B0827F /* CommitteeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitteeViewController.swift; sourceTree = "<group>"; };
-		CC1DB8161F9413B900B0827F /* CommitteeMembersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitteeMembersTableViewCell.swift; sourceTree = "<group>"; };
 		CC39264D1F9029630016820C /* lagc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lagc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3926501F9029630016820C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC3926521F9029630016820C /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +72,6 @@
 		CC39266C1F9029630016820C /* lagcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lagcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3926701F9029630016820C /* lagcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lagcUITests.swift; sourceTree = "<group>"; };
 		CC3926721F9029630016820C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC40075B1FA94FEB00622AEB /* CommitteeMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitteeMember.swift; sourceTree = "<group>"; };
 		CCB2E236200D294B0012B827 /* SubscribeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
 		CCB2E23E200D3DF60012B827 /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
 		CCB2E240200D3E4D0012B827 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
@@ -184,8 +180,6 @@
 				CC39265C1F9029630016820C /* Info.plist */,
 				CC1DB8101F940AB100B0827F /* MainViewController.swift */,
 				CC1DB8121F940C2A00B0827F /* CommitteeViewController.swift */,
-				CC40075B1FA94FEB00622AEB /* CommitteeMember.swift */,
-				CC1DB8161F9413B900B0827F /* CommitteeMembersTableViewCell.swift */,
 				CCB2E23E200D3DF60012B827 /* DownloadManager.swift */,
 			);
 			path = lagc;
@@ -553,11 +547,9 @@
 				CCB2E251200D4BB60012B827 /* PaymentViewController.swift in Sources */,
 				CC1DB8131F940C2A00B0827F /* CommitteeViewController.swift in Sources */,
 				CCB2E253200D514A0012B827 /* FlyersViewController.swift in Sources */,
-				CC1DB8171F9413B900B0827F /* CommitteeMembersTableViewCell.swift in Sources */,
 				CC3926511F9029630016820C /* AppDelegate.swift in Sources */,
 				CCB2E249200D3E4D0012B827 /* PhotoViewController.swift in Sources */,
 				CCB2E23F200D3DF60012B827 /* DownloadManager.swift in Sources */,
-				CC40075C1FA94FEB00622AEB /* CommitteeMember.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,13 +21,15 @@ class PaymentViewController: UIViewController {
             menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
-
         
-        let localHtmlFile = Bundle.main.url(forResource: "donations", withExtension: "html");
+        let documentsURL = try! FileManager().url(for: .documentDirectory,
+                                                  in: .userDomainMask,
+                                                  appropriateFor: nil,
+                                                  create: false)
         
+        let aboutURL = documentsURL.appendingPathComponent("donations.html")
         
-        let request = NSURLRequest(url: localHtmlFile!);
-        
+        let request = NSURLRequest(url: aboutURL);
         webView.loadRequest(request as URLRequest);
     }
 
