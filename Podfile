@@ -7,6 +7,7 @@ target 'lagc' do
 
   # Pods for lagc
   pod 'Alamofire', '~> 4.5'
+  pod 'Eureka', '~> 3.1'
   pod 'Firebase/Core'
   pod 'Firebase/Crash'
   # pod 'Firebase/Auth'

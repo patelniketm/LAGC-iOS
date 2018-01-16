@@ -28,6 +28,7 @@
 		CCB2E251200D4BB60012B827 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E250200D4BB60012B827 /* PaymentViewController.swift */; };
 		CCB2E253200D514A0012B827 /* FlyersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E252200D514A0012B827 /* FlyersViewController.swift */; };
 		CCB2E255200D7DD50012B827 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E254200D7DD50012B827 /* ContactViewController.swift */; };
+		CCB2E257200D8A500012B827 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB2E256200D8A500012B827 /* MessageUI.framework */; };
 		CCCC4EDC1F905CF800EC930A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCCC4EDB1F905CF800EC930A /* GoogleService-Info.plist */; };
 		EA010D755BF713D849192501 /* Pods_lagc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3698ABFA29C85A64861A2A /* Pods_lagc.framework */; };
 /* End PBXBuildFile section */
@@ -85,6 +86,7 @@
 		CCB2E250200D4BB60012B827 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		CCB2E252200D514A0012B827 /* FlyersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyersViewController.swift; sourceTree = "<group>"; };
 		CCB2E254200D7DD50012B827 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactViewController.swift; path = ../ContactViewController.swift; sourceTree = "<group>"; };
+		CCB2E256200D8A500012B827 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		CCCC4EDB1F905CF800EC930A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EB3698ABFA29C85A64861A2A /* Pods_lagc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lagc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB2E257200D8A500012B827 /* MessageUI.framework in Frameworks */,
 				EA010D755BF713D849192501 /* Pods_lagc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +123,7 @@
 		2985F8FBFDDF73B4AF6A295D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CCB2E256200D8A500012B827 /* MessageUI.framework */,
 				EB3698ABFA29C85A64861A2A /* Pods_lagc.framework */,
 				7558DA8100E541D361FA04B0 /* Pods_lagcTests.framework */,
 				4E3C05EE5B72430588FD1740 /* Pods_lagcUITests.framework */,
@@ -513,6 +517,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-lagc/Pods-lagc-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
@@ -522,6 +527,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",

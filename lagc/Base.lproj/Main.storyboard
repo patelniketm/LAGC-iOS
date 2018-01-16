@@ -100,6 +100,43 @@
             </objects>
             <point key="canvasLocation" x="2357" y="-1438"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ils-5j-x1P">
+            <objects>
+                <navigationController id="QOo-Ie-OuP" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zde-sM-nPF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1tO-sB-rc3" kind="relationship" relationship="rootViewController" id="mn0-rl-xFc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fSe-W1-1gJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2224" y="-2142"/>
+        </scene>
+        <!--Subscribe for updates-->
+        <scene sceneID="hQr-Lp-PbX">
+            <objects>
+                <viewController id="1tO-sB-rc3" customClass="SubscribeViewController" customModule="lagc" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Subscribe for updates" id="LL3-dK-QwM">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="tVO-Vf-Kza"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="done" id="Yj5-nG-vCr">
+                            <connections>
+                                <action selector="submitButtonPressed:" destination="1tO-sB-rc3" id="xyR-sb-LAT"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="tVO-Vf-Kza" id="NTQ-4j-O7f"/>
+                        <outlet property="submitButton" destination="Yj5-nG-vCr" id="p6Y-WN-NkF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3G7-5X-2I5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3188" y="-2142"/>
+        </scene>
         <!--Committee Members-->
         <scene sceneID="E7u-0u-BhZ">
             <objects>
@@ -112,13 +149,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Sz-Bs-cgf">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Sz-Bs-cgf">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8Sz-Bs-cgf" secondAttribute="trailing" id="Obn-fY-oR6"/>
+                            <constraint firstItem="8Sz-Bs-cgf" firstAttribute="top" secondItem="cYg-FI-oz1" secondAttribute="bottom" id="ke8-5N-XwW"/>
+                            <constraint firstItem="8Sz-Bs-cgf" firstAttribute="bottom" secondItem="pUV-7B-YIR" secondAttribute="top" id="wCe-uv-AVQ"/>
+                            <constraint firstItem="8Sz-Bs-cgf" firstAttribute="leading" secondItem="jJY-HG-MFq" secondAttribute="leading" id="zar-Rk-2ZB"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Committee Members" id="JEe-XV-38t">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="y0s-88-h9S"/>
@@ -360,6 +402,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.92620444300000004" green="0.93612229820000004" blue="0.94110381600000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="QOo-Ie-OuP" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Sbp-cr-kPp"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="5tg-p7-ja2">
                                         <rect key="frame" x="0.0" y="220" width="320" height="44"/>
