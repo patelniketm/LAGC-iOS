@@ -27,6 +27,7 @@
 		CCB2E24F200D3EBD0012B827 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E24E200D3EBD0012B827 /* SWRevealViewController.m */; };
 		CCB2E251200D4BB60012B827 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E250200D4BB60012B827 /* PaymentViewController.swift */; };
 		CCB2E253200D514A0012B827 /* FlyersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E252200D514A0012B827 /* FlyersViewController.swift */; };
+		CCB2E255200D7DD50012B827 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E254200D7DD50012B827 /* ContactViewController.swift */; };
 		CCCC4EDC1F905CF800EC930A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCCC4EDB1F905CF800EC930A /* GoogleService-Info.plist */; };
 		EA010D755BF713D849192501 /* Pods_lagc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3698ABFA29C85A64861A2A /* Pods_lagc.framework */; };
 /* End PBXBuildFile section */
@@ -83,6 +84,7 @@
 		CCB2E24E200D3EBD0012B827 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		CCB2E250200D4BB60012B827 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		CCB2E252200D514A0012B827 /* FlyersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyersViewController.swift; sourceTree = "<group>"; };
+		CCB2E254200D7DD50012B827 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactViewController.swift; path = ../ContactViewController.swift; sourceTree = "<group>"; };
 		CCCC4EDB1F905CF800EC930A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EB3698ABFA29C85A64861A2A /* Pods_lagc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lagc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -163,6 +165,7 @@
 		CC39264F1F9029630016820C /* lagc */ = {
 			isa = PBXGroup;
 			children = (
+				CCB2E254200D7DD50012B827 /* ContactViewController.swift */,
 				CCB2E24A200D3EA70012B827 /* SWRevealViewController */,
 				CCB2E236200D294B0012B827 /* SubscribeViewController.swift */,
 				CCCC4EDB1F905CF800EC930A /* GoogleService-Info.plist */,
@@ -538,6 +541,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCB2E245200D3E4D0012B827 /* MenuController.swift in Sources */,
+				CCB2E255200D7DD50012B827 /* ContactViewController.swift in Sources */,
 				CC1DB8111F940AB100B0827F /* MainViewController.swift in Sources */,
 				CCB2E24F200D3EBD0012B827 /* SWRevealViewController.m in Sources */,
 				CCB2E247200D3E4D0012B827 /* NewsTableViewCell.swift in Sources */,

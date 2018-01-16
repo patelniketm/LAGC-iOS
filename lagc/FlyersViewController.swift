@@ -28,9 +28,9 @@ class FlyersViewController: UIViewController {
                                                   appropriateFor: nil,
                                                   create: false)
         
-        let aboutURL = documentsURL.appendingPathComponent("flyers.html")
+        let flyerURL = documentsURL.appendingPathComponent("flyers.html")
         
-        let request = NSURLRequest(url: aboutURL);
+        let request = NSURLRequest(url: flyerURL);
         webView.loadRequest(request as URLRequest);
         
         //        } else {
